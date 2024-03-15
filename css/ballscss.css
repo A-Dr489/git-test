@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+}
+.flex-container {
+    display: flex;
+     /* flex-direction: row; and flex-wrap: wrap; is same as flex-flow: direction wrap */
+    align-items: center;
+    justify-content: left;
+}

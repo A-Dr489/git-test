@@ -109,7 +109,9 @@ ol li {
 }
 
 img{
-    width: 969px;
+    width: auto;
+    height: auto;
+    max-width: 900px;
 }
 
 .space {
@@ -139,3 +141,9 @@ a:active.footerlink {
     color: black;
 }
 
+
+.footerbutton {
+    background-color: rgb(10, 10, 95);
+    font-size: 40px;
+    padding: 15px;
+}
