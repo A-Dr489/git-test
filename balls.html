@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name = "author" content = "Asan">
-    <link href="css/ballscss.css" rel="stylesheet">
-    <title>Echo Aatrox</title>
-    </head>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name = "author" content = "Asan">
+<link href="css/ballscss.css" rel="stylesheet">
+<title>Echo Aatrox</title>
+</head>
 
-    <body>
-        <div class="flex-container">
-           
-        </div>
-    </body>
+<body>
+<div id="container"></div>
+<button id="btn">Click Me!</button>
+    <script>
+        const btn = document.querySelector("#btn");
+        btn.onclick = function() {alert("Hello World!")};
+        const container = document.querySelector("#container");
+        const content = document.createElement('div');
+        content.classList.add("content");
+        content.textContent = "im in red";
+        content.style.cssText = "color: red; background-color: white;";
+        container.appendChild(content);
+    </script>
+    
 
-
-
+</body>
 
 
 </html>
