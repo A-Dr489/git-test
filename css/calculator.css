@@ -1,0 +1,171 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex: 1;
+    border: 3px solid red;
+    padding: 10px;
+    background-color: white;
+    width: 193px;
+    height: 42px;
+    border-radius: 7px;
+}
+
+#clear {
+    padding: 17px 19px 17px 19px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 7px;
+}
+
+#clear:hover {
+    border: 3px solid red;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    max-width: 400px;
+    max-height: 400px;
+    gap: 12px;
+}
+
+.number {
+    padding: 17px 22px 17px 22px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    border: 3px solid rgb(35, 19, 182);
+    border-radius: 7px;
+}
+
+.number:hover {
+    border: 3px solid red;
+}
+
+.divide {
+    flex: 1;
+    padding: 19px 24px 19px 24px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 7px;
+}
+
+.divide:hover {
+    border: 3px solid red;
+}
+
+.third {
+    display: flex;
+    max-width: 400px;
+    max-height: 400px;
+    gap: 12px;
+}
+
+.multiply {
+    padding: 19px 23px 19px 23px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 7px;
+}
+
+.multiply:hover {
+    border: 3px solid red;
+}
+
+.forth {
+    display: flex;
+    max-width: 400px;
+    max-height: 400px;
+    gap: 12px;
+}
+
+.subtract {
+    padding: 19px 24px 19px 24px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 7px;
+}
+
+.subtract:hover {
+    border: 3px solid red;
+}
+
+.fifth {
+    display: flex;
+    max-width: 400px;
+    max-height: 400px;
+    gap: 12px;
+}
+
+.dot {
+    padding: 19px 27px 19px 24px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 7px;
+}
+
+.dot:hover {
+    border: 3px solid red;
+}
+
+.equal{
+    padding: 17px 22px 17px 22px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 7px;
+}
+
+.equal:hover {
+    border: 3px solid red;
+}
+
+.add {
+    padding: 17px 21px 17px 21px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 7px;
+}
+
+.add:hover {
+    border: 3px solid red;
+}
+
+.previous {
+    font-size: 20px;
+}
+
+.current {
+    font-size: 26px;
+}
